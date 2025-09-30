@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zane Parker — Batterista | Live · Session · Lezioni</title>
+  <link rel="stylesheet" href="zane.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <svg class="drum-logo" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="6"/>
+          <rect x="20" y="45" width="60" height="10" rx="3" fill="currentColor"/>
+        </svg>
+        <h1><span class="name">Zane Parker</span> <small class="role">batterista</small></h1>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#media">Media</a>
+        <a href="#epk">EPK</a>
+        <a href="#contact">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <h2>Groove. Precisione. Energia.</h2>
+        <p class="lead">Batterista per live, session e registrazioni. Disponibile per tournée e lezioni private.</p>
+        <div class="cta-row">
+          <a class="btn" href="#contact">Prenota una sessione</a>
+          <a class="btn ghost" href="#media">Ascolta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container split">
+      <div class="col">
+        <h3>Chi sono</h3>
+          <p>Sono <strong>Valerio Civitarese</strong>, conosciuto come <strong>Zane Parker</strong>, batterista specializzato in [POP, ROCK & METAL]. 
+        Ho esperienza in live, registrazioni in studio e collaborazioni con artisti emergenti.</p>
+        <ul class="features">
+          <li>Session work / Remote recording</li>
+          <li>Live performance / Teatri e club</li>
+          <li>Lezioni (in presenza e online)</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Attrezzatura</h3>
+        <p>Kit acustico ed elettronico. Possibilità di registrare tracce con click e consegnare file WAV/MP3 di qualità.</p>
+        <p><strong>Disponibile per:</strong> registrazioni, tournée, clinic, lezioni.</p>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media" class="container media-section">
+      <h3>Audio & Video</h3>
+      <p>Qui puoi mettere le tue demo (MP3) o video embed da YouTube.</p>
+
+      <div class="media-grid">
+        <article class="media-card">
+          <h4>Track di esempio</h4>
+          <audio controls preload="none">
+            <source src="audio/your-track.mp3" type="audio/mpeg">
+            Il tuo browser non supporta l'elemento audio.
+          </audio>
+          <p class="caption">Titolo — demo</p>
+        </article>
+
+        <article class="media-card">
+          <h4>Video clip</h4>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+                    title="Video demo" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+          </div>
+          <p class="caption">Live / Session clip</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EPK -->
+    <section id="epk" class="container epk">
+      <h3>EPK / Download</h3>
+      <p>Scarica il mio EPK in PDF: 
+        <a href="assets/EPK.pdf" download>Scarica EPK (PDF)</a>
+      </p>
+    </section>
+
+    <!-- CONTATTI -->
+    <section id="contact" class="container contact">
+      <h3>Contatti</h3>
+      <p>Per booking, lezioni o sessioni scrivi a 
+        <a href="mailto:zane.parker.officialmail@gmail.com">zane.parker.officialmail@gmail.com</a> 
+        oppure compila il modulo:
+      </p>
+      <form id="contactForm" action="mailto:zane.parker.officialmail@gmail.com" 
+            method="post" enctype="text/plain" novalidate>
+        <label>Nome<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Messaggio<textarea name="message" rows="4" required></textarea></label>
+        <div class="form-row">
+          <button type="submit" class="btn">Invia</button>
+        </div>
+      </form>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/zane_parker_official?igsh=czhtdHN0M3Znb3Z4" aria-label="Instagram">Instagram</a> · 
+        <a href="https://www.youtube.com/@zaneparkerofficial" aria-label="YouTube">YouTube</a> · 
+        <a href="https://tiktok.com/@il_tuo_username" aria-label="TikTok">TikTok</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Zane Parker — Batterista · Tutti i diritti riservati</small>
+    </div>
+  </footer>
+
+<script src="zane.js"></script>
+</body>
+</html>
